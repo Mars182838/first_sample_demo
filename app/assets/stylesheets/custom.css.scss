@@ -1,18 +1,21 @@
-@import "bootstrap-sprockets";
 @import "bootstrap";
 
 html {
   overflow-y: scroll;
 }
+
 body {
   padding-top: 60px;
 }
+
 section {
   overflow: auto;
 }
+
 textarea {
   resize: vertical;
 }
+
 .center {
   text-align: center;
   h1 {
@@ -76,22 +79,24 @@ a {
   	color: #555;
   		&:hover {
   			color: #222;
-	}
-}
+	     }
+  }
 
 small {
+  
   float: left;
-}
+    }
 
 ul {
+  
   float: right;
   list-style: none;
+  
   li {
-
-	float: left;
-  	margin-left: 10px;
-	}
-}
+	   float: left;
+  	 margin-left: 10px;
+	   }
+  }
 }
 
 
